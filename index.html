@@ -1,0 +1,27 @@
+<!DOCTYPE HTML>
+<head>
+    <meta charset="utf-8">
+    
+    <title>Tetris</title>
+
+    <style>
+        body {
+            background-color: #80B6E5;
+            text-align: center;
+        }
+    </style>
+
+    <script src="//ajax.googleapis.com/ajax/libs/jquery/1.8.2/jquery.min.js"></script>
+    <script src="jcanvas.min.js"></script>
+    <script src="tetris.js"></script>
+    
+</head>
+<body>
+    <button onclick="tetris.startGame($('#main_canvas'))">Start Game</button>
+    <br />
+    <br />
+    <br />
+    <canvas id="main_canvas" width="250" height="400">
+        Your browser does not support the canvas tag.
+    </canvas>
+</body>
